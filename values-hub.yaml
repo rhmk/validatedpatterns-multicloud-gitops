@@ -83,10 +83,10 @@ clusterGroup:
         # verbosity: "-v"
   managedClusterGroups:
     exampleRegion:
-      name: group-one
+      name: g-one
       acmlabels:
         - name: clusterGroup
-          value: group-one
+          value: g-one
       helmOverrides:
         - name: clusterGroup.isHubCluster
           value: false
